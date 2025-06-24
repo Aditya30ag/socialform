@@ -123,7 +123,6 @@ export default function Home() {
                     src="/page3.mp4"
                     loop
                     autoPlay
-                    muted
                     className="w-full h-full object-cover"
                     onPlay={() => setIsPlaying(true)}
                     onPause={() => setIsPlaying(false)}
